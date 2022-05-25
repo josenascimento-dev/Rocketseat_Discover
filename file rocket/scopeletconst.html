@@ -1,0 +1,19 @@
+//const e let são locais e só funcionam no escopo onde foram criadas
+
+<script>
+    console.log('> existe x antes do bloco?', y)
+    {
+        let y = 0
+    }
+
+    console.log('> existe x depois do bloco?', y)
+
+</script>
+// não funciona pois há dois escopo e let só foi criada no segundo, porém se for criada no primeiro e retorna a variavél sem o let no segundo ela vai buscar o let mais proximo e atualizalo com seu novo valor
+//let y= 1
+{
+     y = 0
+     console.log('> existe y', y)
+}
+console.log('> existe y depois do bloco?', y)
+

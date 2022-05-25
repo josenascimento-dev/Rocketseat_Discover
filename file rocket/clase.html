@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Rocketseat</title>
+    <link rel="stylesheet" type="text/css" href="clase.css" />
+</head>
+
+<body>
+    <h1>Clases Rockeatseat</h1>
+    <!--method= post/get-->
+    <form action="" method="">
+        <fieldset>
+            <legend>Contato</legend>
+            <label>
+                Nome completo:
+                <input type="text" required>
+            </label>
+            <button type="submit">Enviar</button>
+            <input type="text" value="Aqui">
+            <button type="reset">Limpar</button>
+        </fieldset>
+        <fieldset>
+            <input type="text" list="fruitsdata" placeholder="Escolha uma fruta" />
+            <datalist id="fruitsdata">
+                <option>apple</option>
+                <option>banana</option>
+                <option>mango</option>
+                <option>orange</option>
+                <option>cherry</option>
+            </datalist>
+            <input id="senha" type="password" placeholder="Senha" minlength="4" size="8" />
+            <button for="senha" type="submit">Enviar</button>
+            </br>
+            <input type="file" accept=".doc">
+            <label for="subscribe">Receber notificações</label>
+            <input type="checkbox" name="subscribe" id="subscribe" checked>
+        </fieldset>
+        <fieldset>
+            <legend>Bora tomar um café?</legend>
+            <label for="yep">Sim</label>
+            <input type="radio" id="yep" name="coffee" value="yes">
+
+            <label for="nono">Não</label>
+            <input checked type="radio" id="nono" name="coffee" value="no">
+
+        </fieldset>
+
+
+
+        <textarea rows="5" cols="10"></textarea>
+
+    </form>
+
+    <label for="carselect">Qual modelo do carro?</label>
+    <select name="carmodel" id="carselect">
+        <option value="">Selecione o modelo</option>
+        <option value="fiat">Uno</option>
+        <option value="audi">A3</option>
+
+    </select>
+    </br>
+    <label>Please choose one or more pets
+        <select name="pets" multiple size="8">
+            <optgroup label="4-legged pets">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+            </optgroup>
+            <optgroup label="Flying pets">
+                <option value="parrot">Parrot</option>
+                <option value="macaw">Macaw</option>
+                <option value="albatross">Albatross</option>
+            </optgroup>
+        </select>
+    </label>
+    <form action="">
+        <label for="">Pesquisar pelo ID</label>
+        <input type="search" name="id" size="5" pattern="[0-9]{2}" title="Digite o número do ID: 99">
+        <button>Pesquisar</button>
+    </form>
+
+    <datalist id="numeroslist">
+        <option>100</option>
+    </datalist>
+    <form action="">
+        <label for="">Pesquisar pelo ID</label>
+        <input type="number" value="100" list="numeroslist">
+        <button>Enviar</button>
+    </form>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+    <form action="">
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="name">
+                Nome
+                </br>
+                <input id="name" type="text" name="name">
+            </label>
+            </br>
+            </br>
+            <label for="email" name="email">Email
+                </br>
+                <input id="email" type="email">
+            </label>
+            </br>
+            </br>
+            <label for="message" name="message">Mensagem
+                </br>
+                <textarea id="message" name="message" rows="10"></textarea>
+            </label>
+        </br>
+        <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
