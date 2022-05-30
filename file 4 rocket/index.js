@@ -91,9 +91,26 @@ process.on('exit', () =>{
 
 
 
-//setTimeout rodar uma função depois de x milissengudos
+/*setTimeout rodar uma função depois de x milissengudos
 const timeOut=3000
 const finished = () => console.log('done!')
 
 setTimeout(finished, timeOut)
-console.log('mostrar');
+console.log('mostrar');*/
+
+/*
+É um mecanismo para
+* Disparae eventos
+* Ouvir eventos
+* Fazer alguma ação quando ouvir o evento.
+* É a base para muito outros módulos como:http, stream,file system,etc...
+
+O que vamos aprender?
+* Utilizar os eventos
+*Disparar eventos
+* Ouvir eventos
+* Executar ações para determinados eventos
+* Entender como ele é a base para os outros módulos
+*/
+
+
