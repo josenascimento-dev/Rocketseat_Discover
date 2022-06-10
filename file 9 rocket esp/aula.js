@@ -20,4 +20,4 @@ console.log('aguardando');
 promessa
  .then(result => console.log(result))
  .catch(erro => console.log(erro))
- .finally(() => console.log('finalizada');)
+ .finally(() => console.log('finalizada') )
